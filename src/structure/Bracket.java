@@ -1,10 +1,12 @@
+package structure;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class Main {
+public class Bracket {
 
-	public static void main(String[] args) throws Exception{
+public static void main(String[] args) throws Exception{
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Integer repeat = Integer.parseInt(br.readLine());
